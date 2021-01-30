@@ -1,0 +1,57 @@
+<mat-toolbar>
+    <button mat-icon-button (click)="visibleSidebar5 = true" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span>{{title}}</span>
+    <span class="example-spacer"></span>
+    <button (click)="handleLogout()" mat-raised-button class="" aria-label="Example icon-button with heart icon">
+        <mat-icon>logout</mat-icon>
+        <a>Logout</a>
+    </button>
+</mat-toolbar>
+
+<p-sidebar [(visible)]="visibleSidebar5" [fullScreen]="true" [baseZIndex]="10000">
+    <div>
+        <div style="display:table-cell; vertical-align:middle; text-align:center">
+            <img src="../../../assets/img/coucplanner-logo.png" width="50" height="50">
+            <h1 style="font-weight:normal; font-size: 30px;">CouchPlanner</h1>
+        </div>
+    </div>
+    
+    <div
+        style="height: 600px; display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+        
+        <div [routerLink]="['/search']" style="display: flex; align-items: center; justify-content: center;" class="btn-hover color-8">
+            <mat-icon>search</mat-icon>
+            <span  class="color-8 nav-link sidebar-list-element">
+                Search
+            </span>
+        </div>
+        
+        
+        
+
+        <div [routerLink]="['/providers']" style="display: flex; align-items: center; justify-content: center;" class="btn-hover color-8">
+            <mat-icon>list</mat-icon>
+            <span  class="color-8 nav-link sidebar-list-element">
+                Providers
+            </span>
+        </div>
+
+
+        <div [routerLink]="['/shows']" style="display: flex; align-items: center; justify-content: center;" class="btn-hover color-8">
+            <mat-icon>tv</mat-icon>
+            <span  class="color-8 nav-link sidebar-list-element">
+                Shows
+            </span>
+        </div>
+
+        <div [routerLink]="['/matches']" style="display: flex; align-items: center; justify-content: center;" class="btn-hover color-8">
+            <mat-icon>graphic_eq</mat-icon>
+            <span  class="nav-link sidebar-list-element">
+                Matches
+            </span>
+        </div>
+
+    </div>
+</p-sidebar>
