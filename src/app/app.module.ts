@@ -14,7 +14,8 @@ import { CommonModule } from '@angular/common';
 import { NotFoundComponent } from 'src/shared/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
-import {SidebarModule} from 'primeng/sidebar';
+import { PrimengModule } from 'src/shared/primeng/primeng.module';
+
 
 @NgModule({
   declarations: [
@@ -34,8 +35,7 @@ import {SidebarModule} from 'primeng/sidebar';
     BrowserAnimationsModule,
     MatSliderModule,
     AngularMaterialModule,
-    SidebarModule
-    
+    PrimengModule
   ],
   providers: [],
   bootstrap: [AppComponent]

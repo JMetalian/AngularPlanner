@@ -17,8 +17,7 @@ export class ToolbarComponent implements OnInit {
   }
 
   handleLogout(){
-    this.router.navigate([''])
-
+    this.router.navigate(['']);
   }
 
   @Input()

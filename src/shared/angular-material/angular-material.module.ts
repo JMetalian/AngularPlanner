@@ -5,6 +5,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { FormsModule } from '@angular/forms';
 
 const MATERIAL_MODULES = [
   CommonModule,
@@ -13,6 +14,7 @@ const MATERIAL_MODULES = [
   MatToolbarModule,
   MatButtonModule,
   MatSidenavModule,
+  FormsModule
 ];
 
 
