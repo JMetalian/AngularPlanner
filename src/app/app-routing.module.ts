@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { NotFoundComponent } from 'src/shared/not-found/not-found.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { MatchersComponent } from './components/matchers/matchers.component';
+import { MatchesComponent } from './components/matches/matches.component';
 import { ProvidersComponent } from './components/providers/providers.component';
 import { RegisterComponent } from './components/register/register.component';
 import { SearchComponent } from './components/search/search.component';
@@ -33,7 +33,7 @@ const routes: Routes = [
   },
   {
     path:'matches',
-    component:MatchersComponent
+    component:MatchesComponent
   },
   {
     path:'**',

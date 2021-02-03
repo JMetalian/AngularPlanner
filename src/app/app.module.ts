@@ -9,12 +9,12 @@ import { AngularMaterialModule } from 'src/shared/angular-material/angular-mater
 import { SearchComponent } from './components/search/search.component';
 import { ProvidersComponent } from './components/providers/providers.component';
 import { ShowsComponent } from './components/shows/shows.component';
-import { MatchersComponent } from './components/matchers/matchers.component';
 import { CommonModule } from '@angular/common';
 import { NotFoundComponent } from 'src/shared/not-found/not-found.component';
 import { HomeComponent } from './components/home/home.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { PrimengModule } from 'src/shared/primeng/primeng.module';
+import { MatchesComponent } from './components/matches/matches.component';
 
 
 @NgModule({
@@ -23,7 +23,7 @@ import { PrimengModule } from 'src/shared/primeng/primeng.module';
     SearchComponent,
     ProvidersComponent,
     ShowsComponent,
-    MatchersComponent,
+    MatchesComponent,
     NotFoundComponent,
     HomeComponent,
     ToolbarComponent
