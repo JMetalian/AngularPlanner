@@ -17,7 +17,11 @@ export class HomeComponent implements OnInit {
   }
 
   handleLogin(){
-    this.router.navigate(['./search'])
+    this.router.navigate(['./search']);
+  }
+
+  handleRegister(){
+    this.router.navigate(['./register']);
   }
 
 }

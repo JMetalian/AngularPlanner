@@ -8,7 +8,6 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { FormsModule } from '@angular/forms';
 
 const MATERIAL_MODULES = [
-  CommonModule,
   MatCardModule,
   MatIconModule,
   MatToolbarModule,
