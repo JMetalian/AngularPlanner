@@ -26,7 +26,7 @@ export class ShowsComponent implements OnInit {
     }
   ]
 
-  onSearchButtonClicked(){
+  onAddButtonClicked(){
     //this.appService.getSearchData(this.textValue);
     console.log("Benim default değerim",this.textValue)
   }
